@@ -6,20 +6,20 @@ from logging.handlers import RotatingFileHandler
 
 
 BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
-API_ID = int(os.environ.get("API_ID", ""))
-API_HASH = os.environ.get("API_HASH", "")
+API_ID = int(os.environ.get("API_ID", "26910777"))
+API_HASH = os.environ.get("API_HASH", "8601f2f24993f6fdbcbac3bb27ceec38")
 
 
-OWNER_ID = int(os.environ.get("OWNER_ID", ""))
-DB_URL = os.environ.get("DB_URL", "")
+OWNER_ID = int(os.environ.get("OWNER_ID", "5232142502"))
+DB_URL = os.environ.get("DB_URL", "mongodb+srv://King:Cobra765592@cluster0.qy4m5.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 DB_NAME = os.environ.get("DB_NAME", "madflixbotz")
 
 
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", ""))
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "0"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002605527708"))
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002012393480"))
 
 
-FILE_AUTO_DELETE = int(os.getenv("FILE_AUTO_DELETE", "600")) # auto delete in seconds
+FILE_AUTO_DELETE = int(os.getenv("FILE_AUTO_DELETE", "3000")) # auto delete in seconds
 
 
 PORT = os.environ.get("PORT", "8080")
